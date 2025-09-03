@@ -1,0 +1,11 @@
+[package]
+name = "gb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.27"
+ratatui = "0.28"
+git2 = "0.19"
+anyhow = "1.0"
+chrono = "0.4"
