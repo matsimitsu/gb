@@ -1,6 +1,8 @@
 # GB - Git Branch Manager
 
-GB is a terminal user interface (TUI) application for managing Git branches in a more intuitive way. It provides an interactive interface to view, and switch your Git branches efficiently from the command line.
+GB is a terminal user interface (TUI) application for managing Git branches in a more intuitive way. It provides an interactive interface to view, switch, and manage your Git branches efficiently from the command line.
+
+![Demo of GB in action](demo.gif)
 
 ## Features
 
@@ -54,3 +56,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Demo Generation
+
+The demo GIF is generated using [VHS](https://github.com/charmbracelet/vhs). If you have VHS installed, you can regenerate the demo by running:
+
+```bash
+vhs demo.tape
+```
