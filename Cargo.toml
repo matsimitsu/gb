@@ -2,6 +2,14 @@
 name = "gb"
 version = "0.1.0"
 edition = "2024"
+authors = ["Robert Beekman"]
+description = "A terminal user interface (TUI) for managing Git branches"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/matsimitsu/gb"
+repository = "https://github.com/matsimitsu/gb"
+keywords = ["git", "tui", "cli", "terminal", "branches"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
 crossterm = "0.27"
