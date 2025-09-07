@@ -1,16 +1,10 @@
-# GB - Git Branch Manager
+# GB - Git Branch
 
-GB is a terminal user interface (TUI) application for managing Git branches in a more intuitive way. It provides an interactive interface to view, switch, and manage your Git branches efficiently from the command line.
+I needed something to quickly switch between (recent) branches, and using `lg` (LazyGit) then type `3` and then select the branch was doable, but it could be done quicker, so I made `gb`.
+
+It shows the last 10 branches, sorted by date (descending), and you can navigate using `↑/↓/j/k` to select the branch you'd like to check out, and press `enter` to do so.
 
 ![Demo of GB in action](demo.gif)
-
-## Features
-
-- Interactive TUI using Ratatui and Crossterm
-- View all local and remote branches
-- Switch between branches quickly
-- Real-time Git repository status
-- Keyboard-driven interface
 
 ## Installation
 
@@ -40,7 +34,7 @@ gb
 
 ### Key Bindings
 
-- `↑/↓`: Navigate through branches
+- `↑/↓/j/k`: Navigate through branches
 - `Enter`: Switch to selected branch
 - `q`: Quit the application
 
